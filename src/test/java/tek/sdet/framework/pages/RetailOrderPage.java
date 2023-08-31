@@ -58,10 +58,8 @@ public class RetailOrderPage extends BaseSetup{
 		
 		@FindBy(id="buyAgainBtn") 
 		public WebElement orderBuyAgainBtn;
-	
-	
-	
-	//Cancel order
+
+//Cancel order
 	
 	@FindBy(id = "orderLink")
 	public WebElement OrderLink;
