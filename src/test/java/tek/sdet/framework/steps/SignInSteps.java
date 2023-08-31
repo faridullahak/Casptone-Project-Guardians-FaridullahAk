@@ -15,7 +15,6 @@ public class SignInSteps extends CommonUtility {
 
 	POMFactory pomFactory = new POMFactory();
 
-	
 	@Given("User is on retail website homepage")
 	public void userIsOnRetailWebsiteHomepage() {
 		Assert.assertTrue(pomFactory.retailHomePage().tekschoolLogo.isDisplayed());
